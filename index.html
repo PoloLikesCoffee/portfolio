@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="main.js" defer></script>
+		<script
+			src="https://kit.fontawesome.com/5dc488cc43.js"
+			crossorigin="anonymous"
+		></script>
+		<title>PHG | Front-End Developer</title>
+	</head>
+	<body>
+		<!-- loading screen -->
+		<div id="loader-wrapper">
+			<div class="loader">
+				<div class="content-loader first">
+					<div class="container">
+						<ul class="list">
+							<li class="item">.</li>
+							<li class="item">1</li>
+						</ul>
+					</div>
+				</div>
+				<div class="content-loader second">
+					<div class="container">
+						<ul class="list">
+							<li class="item">.</li>
+							<li class="item">+</li>
+						</ul>
+					</div>
+				</div>
+				<div class="content-loader third">
+					<div class="container">
+						<ul class="list">
+							<li class="item">.</li>
+							<li class="item">1</li>
+						</ul>
+					</div>
+				</div>
+				<div class="content-loader fourth">
+					<div class="container">
+						<ul class="list">
+							<li class="item">.</li>
+							<li class="item">=</li>
+						</ul>
+					</div>
+				</div>
+				<div class="content-loader fifth">
+					<div class="container">
+						<ul class="list">
+							<li class="item">.</li>
+							<li class="item">2</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="loader-section section-left"></div>
+			<div class="loader-section section-right"></div>
+		</div>
+		<!-- header & nav bar -->
+		<div class="header-container">
+			<a href="#main" class="portfolio-logo" aria-label="homepage">PHG</a>
+			<nav class="nav">
+				<ul class="nav-list">
+					<!-- <li class="nav-list-item">
+						<a href="#main" class="nav-link"
+							><i class="fas fa-lightbulb"></i
+						></a>
+					</li> -->
+					<li class="nav-list-item">
+						<a href="#about" class="nav-link"><i class="fas fa-user"></i></a>
+					</li>
+					<li class="nav-list-item">
+						<a href="#skills" class="nav-link"><i class="far fa-star"></i></a>
+					</li>
+					<li class="nav-list-item">
+						<a href="#projects" class="nav-link"
+							><i class="fas fa-file-code"></i
+						></a>
+					</li>
+					<li class="nav-list-item">
+						<a href="#writing" class="nav-link"
+							><i class="fas fa-keyboard"></i
+						></a>
+					</li>
+					<li class="nav-list-item">
+						<a href="#contact" class="nav-link"
+							><i class="fas fa-paper-plane"></i
+						></a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!-- custom cursor -->
+		<div class="cursor"></div>
+		<!-- main-content -->
+		<div class="main-container">
+			<!-- Welcome section -->
+			<section id="main" class="welcome-page">
+				<h1>Oh hello there!</h1>
+				<div class="typewriting-text">
+					My name is <b>Paul-Henry Glorianne</b>.
+				</div>
+				<div class="sub-info">
+					I'm a self-taught
+					<a
+						href="#"
+						class="text-flip"
+						data-front="front-end developer"
+						data-back="problem-solver"
+					></a>
+					who just loves
+					<a
+						href="#"
+						class="text-flip"
+						data-front="writing"
+						data-back="coffee"
+					></a
+					>.
+				</div>
+			</section>
+			<!-- About section-->
+			<section class="title about-title">
+				<div class="about-title-content">
+					<h1>More About Me...</h1>
+				</div>
+			</section>
+			<section id="about" class="about-page">
+				<div class="about-content">
+					<div class="about-content-left fade-in">
+						I,
+						<span class="photo-hover photo-item"
+							><img src="/img/me.jpeg" />Me
+						</span>
+						& Myself
+					</div>
+					<p class="fade-in">
+						The pandemic didn't stop me from learning, challenging myself and
+						doing things that matter.<br />
+						I'm currently studying programming on The Odin Project and would
+						like to work as a front-end developer.<br />
+						I'm also what we call a coffee writer. I freelance as a content
+						writer while enjoying a good cup of coffee. I have written some
+						articles about Japan on different websites.<br />
+						In my free time I study Japanese.<br />
+						I also enjoy playing video games and reading.<br />
+						I go running a lot to get away from computer screens.<br />
+						I'm passionate about traveling. I have been to Japan, Australia and
+						Spain. I want to continue exploring new places.
+					</p>
+				</div>
+			</section>
+			<!-- Skills section  -->
+			<section class="title skills-title">
+				<div class="skills-title-content">
+					<h1>The Technologies I'm Familiar With...</h1>
+				</div>
+			</section>
+			<section id="skills" class="skills-page">
+				<div class="web fade-in">
+					<h2>Web Development</h2>
+					<p>
+						HTML, CSS, Javascript, React (Hooks, Styled Components, ...),
+						Bootstrap, Firebase, Ruby, Git, Github, npm, Webpack, Jest and
+						Jasmine.
+					</p>
+				</div>
+
+				<div class="languages fade-in">
+					<h2>Languages</h2>
+					<p>
+						I'm also fluent in both <b>French</b> and <b>English</b> and have
+						some basic in <b>Japanese</b> that enables me to work remotely with
+						clients worldwide.
+					</p>
+				</div>
+			</section>
+			<!-- Projects section -->
+			<section class="title projects-title">
+				<div class="projects-title-content">
+					<h1>Some Things I’ve Built...</h1>
+				</div>
+			</section>
+			<section id="projects" class="projects-page">
+				<!-- <div id="projects-wrapper" class="fade-in">
+					<div class="project-item-container project-pink">
+						<div class="project-item project-item-effect">
+							<div class="img-container">
+								<img src="img/shashinterest.png" />
+							</div>
+							<div class="details project-pink">
+								<h2>Shashinterest</h2>
+								<div class="details-links">
+									<div class="details-link-item-container">
+										<a
+											class="details-link-item"
+											href="https://github.com/PoloLikesCoffee/shashinterest"
+											title="Code Source"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<i class="fab fa-github"></i>
+										</a>
+									</div>
+
+									<div class="details-link-item-container">
+										<a
+											class="details-link-item"
+											href="https://pololikescoffee.github.io/shashinterest/"
+											title="Live Demo"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<i class="far fa-play-circle"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="project-item-container project-orange">
+						<div class="project-item project-item-effect">
+							<div class="img-container">
+								<img src="/img/whereiskirby.png" />
+							</div>
+							<div class="details project-orange">
+								<h2>Where is Kirby?</h2>
+								<div class="details-links">
+									<div class="details-link-item-container">
+										<a
+											class="details-link-item"
+											href="https://github.com/PoloLikesCoffee/where-is-waldo"
+											title="Code Source"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<i class="fab fa-github"></i>
+										</a>
+									</div>
+
+									<div class="details-link-item-container">
+										<a
+											class="details-link-item"
+											href="https://pololikescoffee.github.io/where-is-waldo/"
+											title="Live Demo"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<i class="far fa-play-circle"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="project-item-container project-green">
+						<div class="project-item project-item-effect">
+							<div class="img-container">
+								<img src="/img/battleship.png" />
+							</div>
+							<div class="details project-green">
+								<h2>Battleship</h2>
+								<div class="details-links">
+									<div class="details-link-item-container">
+										<a
+											class="details-link-item"
+											href="https://github.com/PoloLikesCoffee/battleship"
+											title="Code Source"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<i class="fab fa-github"></i>
+										</a>
+									</div>
+
+									<div class="details-link-item-container">
+										<a
+											class="details-link-item"
+											href="https://pololikescoffee.github.io/battleship/"
+											title="Live Demo"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<i class="far fa-play-circle"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="project-item-container project-blue">
+						<div class="project-item project-item-effect">
+							<div class="img-container">
+								<img src="/img/memorycardgame.png" />
+							</div>
+							<div class="details project-blue">
+								<h2>Memory Card Game</h2>
+								<div class="details-links">
+									<div class="details-link-item-container">
+										<a
+											class="details-link-item"
+											href="https://github.com/PoloLikesCoffee/memory-card"
+											title="Code Source"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<i class="fab fa-github"></i>
+										</a>
+									</div>
+
+									<div class="details-link-item-container">
+										<a
+											class="details-link-item"
+											href="https://pololikescoffee.github.io/memory-card/"
+											title="Live Demo"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<i class="far fa-play-circle"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="project-item-container project-green">
+						<div class="project-item project-item-effect">
+							<div class="img-container">
+								<img src="/img/todolist.png" />
+							</div>
+							<div class="details project-green">
+								<h2>To do list</h2>
+								<div class="details-links">
+									<div class="details-link-item-container">
+										<a
+											class="details-link-item"
+											href="https://github.com/PoloLikesCoffee/todo-list"
+											title="Code Source"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<i class="fab fa-github"></i>
+										</a>
+									</div>
+
+									<div class="details-link-item-container">
+										<a
+											class="details-link-item"
+											href="https://pololikescoffee.github.io/todo-list/"
+											title="Live Demo"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<i class="far fa-play-circle"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="project-item-container project-blue">
+						<div class="project-item project-item-effect">
+							<div class="img-container">
+								<img src="/img/weatherapp.png" />
+							</div>
+							<div class="details project-blue">
+								<h2>Weather App</h2>
+								<div class="details-links">
+									<div class="details-link-item-container">
+										<a
+											class="details-link-item"
+											href="https://github.com/PoloLikesCoffee/weather-app"
+											title="Code Source"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<i class="fab fa-github"></i>
+										</a>
+									</div>
+
+									<div class="details-link-item-container">
+										<a
+											class="details-link-item"
+											href="https://pololikescoffee.github.io/weather-app/"
+											title="Live Demo"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<i class="far fa-play-circle"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="project-item-container project-pink">
+						<div class="project-item project-item-effect">
+							<div class="img-container">
+								<img src="/img/tictactoe.png" />
+							</div>
+							<div class="details project-pink">
+								<h2>Tic Tac Toe</h2>
+								<div class="details-links">
+									<div class="details-link-item-container">
+										<a
+											class="details-link-item"
+											href="https://github.com/PoloLikesCoffee/tic-tac-toe"
+											title="Code Source"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<i class="fab fa-github"></i>
+										</a>
+									</div>
+
+									<div class="details-link-item-container">
+										<a
+											class="details-link-item"
+											href="https://pololikescoffee.github.io/tic-tac-toe/"
+											title="Live Demo"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<i class="far fa-play-circle"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="project-item-container project-orange">
+						<div class="project-item project-item-effect">
+							<div class="img-container">
+								<img src="/img/libraryapp.png" />
+							</div>
+							<div class="details project-orange">
+								<h2>Library App</h2>
+								<div class="details-links">
+									<div class="details-link-item-container">
+										<a
+											class="details-link-item"
+											href="https://github.com/PoloLikesCoffee/library"
+											title="Code Source"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<i class="fab fa-github"></i>
+										</a>
+									</div>
+
+									<div class="details-link-item-container">
+										<a
+											class="details-link-item"
+											href="https://pololikescoffee.github.io/library/"
+											title="Live Demo"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<i class="far fa-play-circle"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> -->
+			</section>
+			<!-- Writing section -->
+			<section class="title writing-title">
+				<div class="writing-title-content">
+					<h1>Articles and Blog Posts...</h1>
+				</div>
+			</section>
+			<section id="writing" class="writing-page">
+				<div class="writing-item fade-in">
+					<h3>
+						<a
+							class="writing-item-link writing-item-link-effect"
+							href="https://leblogduherisson.com/yusuke-nakamura-portrait-dun-artiste-japonais/"
+							target="_blank"
+							rel="noopener noreferrer"
+							>The Portrait Of Yusuke Nakamura, An Japanese Artist</a
+						>
+					</h3>
+					<p>May 2021 - Japan, Artist</p>
+				</div>
+				<div class="writing-item fade-in">
+					<h3>
+						<a
+							class="writing-item-link writing-item-link-effect"
+							href="https://panodyssey.com/fr/article/voyage/danjiri-matsuri-le-celebre-festival-de-chars-de-kishiwada-dwmt2fjjus3j"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Danjiri Matsuri, The Famous Cart-Pulling Festival Of Kishiwada In
+							Japan</a
+						>
+					</h3>
+					<p>February 2021 - Japan, Festival, History</p>
+				</div>
+				<div class="writing-item fade-in">
+					<h3>
+						<a
+							class="writing-item-link writing-item-link-effect"
+							href="https://highnews.fr/fans-de-ghost-of-tsushima-sauvent-un-temple-au-japon/"
+							target="_blank"
+							rel="noopener noreferrer"
+							>The Fans Of Ghost Of Tsuhima Save A Torii In Japan</a
+						>
+					</h3>
+					<p>January 2021 - Japan, News, History</p>
+				</div>
+				<div class="writing-item fade-in">
+					<h3>
+						<a
+							class="writing-item-link writing-item-link-effect"
+							href="https://highnews.fr/nintendo-switch-edition-limitee-aux-couleurs-de-mario/"
+							target="_blank"
+							rel="noopener noreferrer"
+							>A New Limited Edition Of The Nintendo Switch</a
+						>
+					</h3>
+					<p>January 2021 - Japan, News, Video Game</p>
+				</div>
+				<div class="writing-item fade-in">
+					<h3>
+						<a
+							class="writing-item-link writing-item-link-effect"
+							href="https://jap-art.io/artisanat-traditionnel-okinawa/"
+							target="_blank"
+							rel="noopener noreferrer"
+							>The Beautiful Island Of Okinawa And Her Traditional Craft</a
+						>
+					</h3>
+					<p>January 2021 - Japan, Travel, Tradition</p>
+				</div>
+			</section>
+			<!-- Contact-section -->
+			<section class="title contact-title">
+				<div class="contact-title-content">
+					<h1>
+						<b>Still have questions</b>? <b>Want to work together</b>? I’d love
+						to hear from you...
+					</h1>
+				</div>
+			</section>
+			<section id="contact" class="contact-page">
+				<div class="contact-item slide-in from-left">
+					<h4>
+						<a
+							class="contact-item-link contact-item-link-effect"
+							href="mailto:phglorianne@gmail.com"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Email</a
+						>
+					</h4>
+				</div>
+				<div class="contact-item slide-in from-right">
+					<h4>
+						<a
+							class="contact-item-link contact-item-link-effect"
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://github.com/PoloLikesCoffee"
+							>GitHub</a
+						>
+					</h4>
+				</div>
+				<div class="contact-item slide-in from-left">
+					<h4>
+						<a
+							class="contact-item-link contact-item-link-effect"
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://codepen.io/pololikescoffee"
+							>CodePen</a
+						>
+					</h4>
+				</div>
+				<div class="contact-item slide-in from-right">
+					<h4>
+						<a
+							class="contact-item-link contact-item-link-effect"
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://www.linkedin.com/in/paul-henry-glorianne-redacteur-web-seo/"
+							>Linkedin</a
+						>
+					</h4>
+				</div>
+				<div class="contact-item slide-in from-left">
+					<h4>
+						<a
+							class="contact-item-link contact-item-link-effect"
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://visualcv.com/my-name/"
+						>
+							Resume</a
+						>
+					</h4>
+				</div>
+			</section>
+			<!-- Goodbye section -->
+			<section id="goodbye" class="goodbye-page">
+				<div class="goodbye-item fade-in">
+					<h1>
+						Have a nice
+						<span class="day"></span>
+					</h1>
+				</div>
+			</section>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+	</body>
+</html>
