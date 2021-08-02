@@ -978,6 +978,9 @@ section.contact-title .contact-title-content:after {
 	.writing-content-right a {
 		font-size: var(--space-sm);
 	}
+	.writing-intro {
+		font-size: calc(var(--space-sm) - var(--space-xxs));
+	}
 
 	.writing-content-right p {
 		font-size: calc(var(--space-sm) - var(--space-xxs));
@@ -1041,7 +1044,7 @@ section.contact-title .contact-title-content:after {
 /*///////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /* responsive design mobile */
-@media all and (max-width: 420px) {
+@media screen and (max-device-width: 420px) {
 	/*loader*/
 	.loader {
 		width: 400px;
@@ -1123,6 +1126,9 @@ section.contact-title .contact-title-content:after {
 	.writing-content-right a {
 		font-size: calc(var(--space-sm) - var(--space-xs));
 	}
+	.writing-intro {
+		font-size: calc(var(--space-sm) - var(--space-xs));
+	}
 	.writing-content-right p {
 		font-size: calc(var(--space-sm) - var(--space-xs));
 	}
@@ -1142,7 +1148,7 @@ section.contact-title .contact-title-content:after {
 }
 /*///////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-@media (orientation: landscape) and (max-width: 840px) {
+@media (orientation: landscape) and (max-device-width: 840px) {
 	/*welcome*/
 	.welcome-page h1 {
 		font-size: calc(var(--space-xl) + var(--space-xs));
@@ -1189,7 +1195,7 @@ section.contact-title .contact-title-content:after {
 		font-size: calc(var(--space-lg) + var(--space-xs));
 	}
 	.project-item {
-		margin: var(--space-xxs) 0;
+		margin: 0;
 	}
 	.project-item h2 {
 		font-size: calc(var(--space-sm) - var(--space-xxs));
@@ -1211,6 +1217,9 @@ section.contact-title .contact-title-content:after {
 		font-size: calc(var(--space-md) + var(--space-xxs));
 	}
 	.writing-content-right a {
+		font-size: calc(var(--space-sm) - var(--space-xs));
+	}
+	.writing-intro {
 		font-size: calc(var(--space-sm) - var(--space-xs));
 	}
 	.writing-content-right p {
@@ -1235,7 +1244,7 @@ section.contact-title .contact-title-content:after {
 /*///////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /* disable animation */
-@media all and (max-width: 499px) {
+@media all and (max-device-width: 840px) {
 	/*nav & transition section*/
 	.header-container {
 		background-color: var(--background-main-color);
