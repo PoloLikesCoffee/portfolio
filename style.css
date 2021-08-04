@@ -1118,7 +1118,7 @@ section.contact-title .contact-title-content:after {
 
 	/*writing*/
 	.writing-title-content h1 {
-		font-size: calc(var(--space-xl) + var(--space-xs));
+		font-size: calc(var(--space-lg) + var(--space-sm));
 	}
 	.writing-content-left {
 		font-size: calc(var(--space-md) + var(--space-xxs));
@@ -1143,7 +1143,7 @@ section.contact-title .contact-title-content:after {
 
 	/*goodbye*/
 	.goodbye-page h1 {
-		font-size: calc(var(--space-xl) + var(--space-sm));
+		font-size: calc(var(--space-lg) + var(--space-sm));
 	}
 }
 /*///////////////////////////////////////////////////////////////////////////////////////////////////*/
